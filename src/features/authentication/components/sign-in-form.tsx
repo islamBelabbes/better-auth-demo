@@ -55,7 +55,7 @@ export function SignInForm() {
             <div className="text-center text-sm">
               Don&apos;t have an account?{" "}
               <Link
-                href="/auth/signup"
+                href="/auth/sign-up"
                 className="underline underline-offset-4"
               >
                 Sign up
