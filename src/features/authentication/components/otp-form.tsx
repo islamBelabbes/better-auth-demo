@@ -23,7 +23,7 @@ function OtpForm() {
       </CardHeader>
       <CardContent>
         <form className="flex flex-col items-center space-y-4">
-          <InputOTP maxLength={6}>
+          <InputOTP maxLength={4}>
             <InputOTPGroup className="space-x-2">
               <InputOTPSlot index={0} className="rounded-md border-l" />
               <InputOTPSlot index={1} className="rounded-md border-l" />
